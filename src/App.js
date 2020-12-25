@@ -6,7 +6,7 @@ import Timeline from './components/Timeline';
 
 function App() {
   console.log(timelineData);
-
+  // This component will read in the data from the JSON file and pass the timeline events to the Timeline component which it will contain
   // Customize the code below
   return (
     <div className="App">
