@@ -4,8 +4,6 @@ import Timestamp from './Timestamp';
 
 const TimelineEvent = (props) => {
 
- //need to use the Timestamp component inside here 
-
   return (
     <div>
       <Timestamp time={props.timeStamp}/>
