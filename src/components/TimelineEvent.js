@@ -8,9 +8,9 @@ const TimelineEvent = (props) => {
 
   return (
     <div>
+      <Timestamp time={props.timeStamp}/>
       <p>{props.person}</p>
       <p>{props.status} </p>
-      <p> {props.timeStamp}</p>
     </div>
   );
 }
