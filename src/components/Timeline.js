@@ -12,7 +12,7 @@ const Timeline = (props) => {
   );
 });
   return (
-    <div>
+    <div className="timeline">
       {timelineComponents}
     </div>
   );
